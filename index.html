@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./index.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Syne:wght@500;600;700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=DM Sans:wght@400;500;700&display=swap"
+    />
+  </head>
+  <body>
+    <div class="login-dark">
+      <img class="login-dark-child" alt="" src="./public/frame-52@2x.png" />
+
+      <div class="image-1-parent">
+        <div class="image-1"></div>
+        <div class="div"></div>
+      </div>
+      <form class="welcome-to-shaper-signup-parent">
+        <div class="welcome-to-shaper-container">
+          <p class="welcome-to-shaper">Welcome to SHAPER,</p>
+          <p class="welcome-to-shaper">Signup!</p>
+        </div>
+        <div class="forms-parent">
+          <input class="forms" type="email" />
+
+          <div class="usernameemail">Username/Email</div>
+        </div>
+        <div class="forms-parent">
+          <input class="forms1" type="password" />
+
+          <div class="usernameemail">Password</div>
+        </div>
+        <div class="buttons-parent">
+          <button class="buttons">
+            <img
+              class="login-24-outline"
+              alt=""
+              src="./public/login--24--outline.svg"
+            />
+
+            <div class="button">Sign In</div>
+          </button>
+          <div class="forget-password">Forget Password?</div>
+        </div>
+        <div class="or">OR</div>
+        <div class="frame-parent">
+          <div class="buttons-group">
+            <button class="buttons1">
+              <img
+                class="google-24-outline"
+                alt=""
+                src="./public/google--24--outline.svg"
+              />
+
+              <div class="forget-password">Sign in with Google</div>
+            </button>
+            <button class="buttons2">
+              <img
+                class="google-24-outline"
+                alt=""
+                src="./public/github--24--outline.svg"
+              />
+
+              <div class="forget-password">Sign in with GitHub</div>
+            </button>
+          </div>
+          <div class="buttons-container">
+            <button class="buttons3">
+              <img
+                class="google-24-outline"
+                alt=""
+                src="./public/facebook--24--outline.svg"
+              />
+
+              <div class="forget-password">Sign in with Facebook</div>
+            </button>
+            <button class="buttons3">
+              <img
+                class="google-24-outline"
+                alt=""
+                src="./public/apple--24--outline.svg"
+              />
+
+              <div class="forget-password">Sign in with Apple</div>
+            </button>
+          </div>
+        </div>
+        <div class="already-have-an" id="alreadyHaveAn">
+          Already have an Account? Login!
+        </div>
+      </form>
+      <div class="dark-mode-parent" id="frameContainer6">
+        <div class="dark-mode">Dark Mode</div>
+        <div class="rectangle-wrapper">
+          <div class="instance-child"></div>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      var alreadyHaveAn = document.getElementById("alreadyHaveAn");
+      if (alreadyHaveAn) {
+        alreadyHaveAn.addEventListener("click", function (e) {
+          window.location.href = "./sign-up-dark.html";
+        });
+      }
+      
+      var frameContainer6 = document.getElementById("frameContainer6");
+      if (frameContainer6) {
+        frameContainer6.addEventListener("click", function (e) {
+          window.location.href = "./login-light.html";
+        });
+      }
+      </script>
+  </body>
+</html>

@@ -1,0 +1,321 @@
+.login-light-child, .login-light-item {
+  border-radius: 0 var(--br-41xl) var(--br-41xl) 0;
+  width: 826px;
+  height: 1020px;
+  object-fit: cover;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 0;
+  overflow: hidden;
+}
+
+.login-light-child {
+  opacity: .06;
+  left: 683px;
+}
+
+.login-light-item {
+  left: 0;
+}
+
+.welcome-to-shaper1 {
+  margin: 0;
+}
+
+.welcome-to-shaper-container1 {
+  font-size: var(--header-1-size);
+  letter-spacing: -.02em;
+  font-weight: 600;
+  font-family: var(--header-5);
+  color: var(--black);
+  text-align: left;
+  mix-blend-mode: normal;
+  position: relative;
+}
+
+.forms4 {
+  border: 1px solid var(--main-colors-main);
+  font-family: var(--subtitle);
+  font-size: var(--header-5-size);
+  border-radius: var(--br-5xs);
+  box-sizing: border-box;
+  width: 300px;
+  height: 33px;
+  padding: var(--padding-7xs) var(--padding-5xs);
+  background-color: #0000;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  display: flex;
+  position: absolute;
+  top: 23px;
+  left: 0;
+  overflow-y: auto;
+}
+
+.usernameemail2 {
+  font-size: var(--header-6-size);
+  font-weight: 500;
+  font-family: var(--header-5);
+  color: var(--black);
+  text-align: left;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.forms-parent1 {
+  width: 300px;
+  height: 56px;
+  position: relative;
+}
+
+.forms5 {
+  border: 1px solid var(--main-colors-main);
+  font-family: var(--subtitle);
+  font-size: var(--header-5-size);
+  border-radius: var(--br-5xs);
+  box-sizing: border-box;
+  width: 300px;
+  padding: var(--padding-7xs) var(--padding-5xs);
+  background-color: #0000;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  display: flex;
+  position: absolute;
+  top: 23px;
+  left: 0;
+}
+
+.login-24-outline2 {
+  width: 20px;
+  height: 20px;
+  flex-shrink: 0;
+  position: relative;
+  overflow: hidden;
+}
+
+.button10 {
+  font-size: var(--header-5-size);
+  font-weight: 500;
+  font-family: var(--header-5);
+  color: var(--white);
+  text-align: left;
+  mix-blend-mode: normal;
+  position: relative;
+}
+
+.buttons10 {
+  cursor: pointer;
+  padding: var(--padding-3xs) var(--padding-sm);
+  background-color: var(--main-colors-main);
+  border-radius: var(--br-5xs);
+  height: 36px;
+  box-sizing: border-box;
+  justify-content: center;
+  align-items: center;
+  gap: var(--gap-5xs);
+  border: 0;
+  flex-direction: row;
+  display: flex;
+  overflow: hidden;
+}
+
+.forget-password2 {
+  font-size: var(--header-6-size);
+  font-weight: 500;
+  font-family: var(--header-5);
+  color: var(--gray-3);
+  text-align: left;
+  mix-blend-mode: normal;
+  position: relative;
+}
+
+.buttons-parent3 {
+  width: 300px;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+}
+
+.or1 {
+  font-size: var(--header-5-size);
+  font-weight: 500;
+  font-family: var(--header-5);
+  color: var(--gray-3);
+  text-align: left;
+  mix-blend-mode: normal;
+  position: relative;
+}
+
+.google-24-outline2 {
+  width: 18px;
+  height: 18px;
+  flex-shrink: 0;
+  position: relative;
+  overflow: hidden;
+}
+
+.buttons11 {
+  cursor: pointer;
+  border: 1px solid var(--gray-2);
+  padding: var(--padding-3xs) var(--padding-xs);
+  background-color: var(--gray-1);
+  border-radius: var(--br-5xs);
+  box-sizing: border-box;
+  width: 178px;
+  height: 32px;
+  justify-content: center;
+  align-items: center;
+  gap: var(--gap-7xs);
+  flex-shrink: 0;
+  overflow: hidden;
+}
+
+.buttons-parent4, .buttons11, .buttons12 {
+  flex-direction: row;
+  display: flex;
+}
+
+.buttons12 {
+  cursor: pointer;
+  border: 1px solid var(--gray-2);
+  padding: var(--padding-3xs) var(--padding-xs);
+  background-color: var(--gray-1);
+  border-radius: var(--br-5xs);
+  box-sizing: border-box;
+  width: 181px;
+  height: 32px;
+  justify-content: center;
+  align-items: center;
+  gap: var(--gap-7xs);
+  flex-shrink: 0;
+  overflow: hidden;
+}
+
+.buttons-parent4 {
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: var(--gap-5xs);
+}
+
+.buttons-parent5, .buttons13, .frame-container {
+  flex-direction: row;
+  justify-content: center;
+  display: flex;
+}
+
+.buttons13 {
+  cursor: pointer;
+  border: 1px solid var(--gray-2);
+  padding: var(--padding-3xs) var(--padding-xs);
+  background-color: var(--gray-1);
+  border-radius: var(--br-5xs);
+  box-sizing: border-box;
+  height: 32px;
+  align-items: center;
+  gap: var(--gap-7xs);
+  overflow: hidden;
+}
+
+.buttons-parent5, .frame-container {
+  align-items: flex-start;
+  gap: var(--gap-6xs);
+}
+
+.frame-container {
+  width: 300px;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+  flex-direction: column;
+}
+
+.already-have-an1 {
+  font-size: var(--header-5-size);
+  font-weight: 500;
+  font-family: var(--header-5);
+  color: var(--black);
+  text-align: left;
+  mix-blend-mode: normal;
+  cursor: pointer;
+  position: relative;
+}
+
+.welcome-to-shaper-signup-group {
+  border-radius: var(--br-5xl);
+  background-color: var(--gray-0);
+  padding: var(--padding-81xl) var(--padding-131xl);
+  justify-content: center;
+  align-items: flex-start;
+  gap: var(--gap-xl);
+  flex-direction: column;
+  display: flex;
+  position: absolute;
+  top: 180px;
+  left: 668px;
+  overflow: hidden;
+  box-shadow: 0 2px 14px #0000002b;
+}
+
+.dark-mode2 {
+  mix-blend-mode: normal;
+  font-weight: 500;
+  position: relative;
+}
+
+.instance-inner {
+  border-radius: var(--br-xs);
+  background-color: var(--black);
+  width: 26px;
+  height: 26px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 4px;
+  left: 4px;
+}
+
+.rectangle-frame {
+  cursor: pointer;
+  border: .4px solid var(--gray-2);
+  background-color: var(--gray-1);
+  border-radius: var(--br-sm);
+  box-sizing: border-box;
+  width: 60px;
+  height: 34px;
+  flex-shrink: 0;
+  padding: 0;
+  position: relative;
+  overflow: hidden;
+  box-shadow: 0 2px 4px #00000026;
+}
+
+.dark-mode-container {
+  justify-content: flex-start;
+  align-items: center;
+  gap: var(--gap-lg);
+  mix-blend-mode: normal;
+  cursor: pointer;
+  flex-direction: row;
+  display: flex;
+  position: absolute;
+  top: 957px;
+  left: 921px;
+}
+
+.login-light {
+  background-color: var(--white);
+  width: 100%;
+  height: 1020px;
+  mix-blend-mode: normal;
+  text-align: left;
+  font-size: var(--header-5-size);
+  color: var(--black);
+  font-family: var(--header-5);
+  position: relative;
+  overflow: hidden;
+}
+
+/*# sourceMappingURL=login-light.26ac281f.css.map */

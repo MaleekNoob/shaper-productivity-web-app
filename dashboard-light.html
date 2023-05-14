@@ -1,0 +1,612 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./dashboard-light.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Syne:wght@500;600;700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=DM Sans:wght@400;500;700&display=swap"
+    />
+  </head>
+  <body>
+    <main class="dashboard-light">
+      <section class="navs-group">
+        <nav class="navs1">
+          <button class="shifts1" disabled>
+            <img
+              class="house-24-outline1"
+              alt=""
+              src="./public/house--24--outline1.svg"
+            />
+
+            <div class="home1">Home</div>
+          </button>
+          <img class="component-2-icon" alt="" src="./public/component-2.svg" />
+
+          <img class="component-2-icon" alt="" src="./public/component-3.svg" />
+
+          <img class="component-2-icon" alt="" src="./public/component-4.svg" />
+
+          <img class="component-2-icon" alt="" src="./public/component-5.svg" />
+        </nav>
+        <form class="new-task3" method="post">
+          <div class="create-new-task1">Create new Task</div>
+          <input class="forms15" type="text" />
+
+          <div class="forms-parent6">
+            <select class="forms16"></select>
+            <select class="forms16"></select>
+          </div>
+          <input class="forms18" type="date" />
+
+          <input class="forms15" type="text" placeholder="Description" />
+
+          <button class="buttons23">
+            <img
+              class="book-24-outline1"
+              alt=""
+              src="./public/book--24--outline1.svg"
+            />
+
+            <div class="button23">Save</div>
+          </button>
+        </form>
+        <form class="new-task4" method="post">
+          <div class="create-new-task1">Create new Note</div>
+          <input class="forms15" type="text" />
+
+          <textarea class="forms21" placeholder="Body" required> </textarea>
+          <button class="buttons23">
+            <img
+              class="book-24-outline1"
+              alt=""
+              src="./public/notes--24--outline2.svg"
+            />
+
+            <div class="button23">Save</div>
+          </button>
+          <div class="tag-parent11">
+            <div class="tag17">Tag</div>
+            <div class="create-new-task1">March 20</div>
+          </div>
+        </form>
+        <div class="new-task5">
+          <div class="good-morning-sumeed">Track Time</div>
+          <div class="div16">25:00</div>
+          <div class="frame-parent5">
+            <button class="min-wrapper2">
+              <div class="min8">
+                <p class="p4">10</p>
+                <p class="min9">min</p>
+              </div>
+            </button>
+            <button class="min-wrapper2">
+              <div class="min8">
+                <p class="p4">10</p>
+                <p class="min9">min</p>
+              </div>
+            </button>
+            <button class="min-wrapper2">
+              <div class="min8">
+                <p class="p4">10</p>
+                <p class="min9">min</p>
+              </div>
+            </button>
+            <button class="min-wrapper2">
+              <div class="min8">
+                <p class="p4">10</p>
+                <p class="min9">min</p>
+              </div>
+            </button>
+          </div>
+          <button class="buttons23">
+            <img
+              class="book-24-outline1"
+              alt=""
+              src="./public/notes--24--outline2.svg"
+            />
+
+            <div class="button23">Save</div>
+          </button>
+          <div class="tag-parent12">
+            <div class="good-morning-sumeed">Tag</div>
+            <div class="march-2018">March 20</div>
+          </div>
+        </div>
+        <div class="dark-mode-parent3">
+          <div class="dark-mode5">Dark Mode</div>
+          <button class="rectangle-wrapper2" id="frameButton4">
+            <div class="instance-child2"></div>
+          </button>
+        </div>
+      </section>
+      <section class="frame-section">
+        <div class="good-morning-sumeed-parent">
+          <div class="good-morning-sumeed">Good Morning, Sumeed!</div>
+          <div class="frame-parent6">
+            <div class="calender-24-outline-group">
+              <img
+                class="house-24-outline1"
+                alt=""
+                src="./public/calender--24--outline1.svg"
+              />
+
+              <div class="pm-25-march1">12:00 PM 25 March, 2023</div>
+            </div>
+            <img
+              class="house-24-outline1"
+              alt=""
+              src="./public/bell--24--outline1.svg"
+            />
+
+            <div class="avatar-pattern-321">
+              <div class="rectangle2"></div>
+              <div class="rectangle3"></div>
+            </div>
+          </div>
+        </div>
+        <div class="habit-group">
+          <div class="habit4" id="Habit">
+            <div class="check-parent2">
+              <img class="check-icon1" alt="" src="./public/check.svg" />
+
+              <div class="run4">Meditate</div>
+            </div>
+            <div class="days-parent2">
+              <div class="days4">🔥 5 days</div>
+              <div class="days4">Everyday</div>
+            </div>
+            <div class="habit-child2"></div>
+          </div>
+          <div class="habits1">Habits</div>
+          <div class="habit5" id="Habit">
+            <div class="check-parent2">
+              <img class="check-icon1" alt="" src="./public/check.svg" />
+
+              <div class="run4">Run</div>
+            </div>
+            <div class="days-parent2">
+              <div class="days4">🔥 5 days</div>
+              <div class="days4">Everyday</div>
+            </div>
+            <div class="habit-child3"></div>
+          </div>
+          <div class="habit6" id="Habit">
+            <div class="check-parent2">
+              <img class="check-icon1" alt="" src="./public/check.svg" />
+
+              <div class="run4">Walk</div>
+            </div>
+            <div class="days-parent2">
+              <div class="days4">🔥 5 days</div>
+              <div class="days4">Everyday</div>
+            </div>
+            <div class="habit-child4"></div>
+          </div>
+          <div class="habit7" id="Habit">
+            <div class="check-parent2">
+              <img class="check-icon1" alt="" src="./public/check.svg" />
+
+              <div class="run4">Read</div>
+            </div>
+            <div class="days-parent2">
+              <div class="days4">🔥 5 days</div>
+              <div class="days4">Everyday</div>
+            </div>
+            <div class="habit-child5"></div>
+          </div>
+        </div>
+        <div class="notes-group">
+          <div class="notes1">Notes</div>
+          <div class="note-container">
+            <div class="note10" id="Note">
+              <div class="my-last-night-dream-parent8">
+                <b class="pm-25-march1">Grocery List</b>
+                <div class="tag-parent13">
+                  <div class="dark-mode5">Personal</div>
+                  <div class="march-2019">March 20</div>
+                </div>
+              </div>
+              <div class="my-last-night-container6">
+                <ul class="milk-eggs-bread-cheese">
+                  <li class="milk1">Milk</li>
+                  <li class="milk1">Eggs</li>
+                  <li class="milk1">Bread</li>
+                  <li>Cheese</li>
+                </ul>
+              </div>
+            </div>
+            <div class="note10" id="Note">
+              <div class="my-last-night-dream-parent8">
+                <div class="good-morning-sumeed">Recipe</div>
+                <div class="tag-parent13">
+                  <div class="dark-mode5">Personal</div>
+                  <div class="march-2019">March 22</div>
+                </div>
+              </div>
+              <div class="my-last-night-container6">
+                <ul class="milk-eggs-bread-cheese">
+                  <li class="milk1">Chicken parmesan</li>
+                  <li class="milk1">Ingredients:</li>
+                  <li class="milk1">Chicken breasts</li>
+                  <li class="milk1">Tomato sauce</li>
+                  <li class="milk1">Mozzarella cheese</li>
+                  <li class="milk1">Parmesan cheese</li>
+                  <li>Bread crumbs</li>
+                </ul>
+              </div>
+            </div>
+            <div class="note10" id="Note">
+              <div class="my-last-night-dream-parent8">
+                <div class="good-morning-sumeed">Passwords</div>
+                <div class="tag-parent13">
+                  <div class="dark-mode5">Personal</div>
+                  <div class="march-2019">March 24</div>
+                </div>
+              </div>
+              <div class="my-last-night-container6">
+                <ul class="milk-eggs-bread-cheese">
+                  <li class="milk1">Facebook: ********</li>
+                  <li class="milk1">Gmail: ********</li>
+                  <li>Amazon: ********</li>
+                </ul>
+              </div>
+            </div>
+            <div class="note10" id="Note">
+              <div class="my-last-night-dream-parent8">
+                <div class="good-morning-sumeed">My last Night dream</div>
+                <div class="tag-parent13">
+                  <div class="dark-mode5">Tag</div>
+                  <div class="march-2019">March 20</div>
+                </div>
+              </div>
+              <div class="my-last-night18">
+                My last Night dream My last Night dream My last Night dream My
+                last Night dream My last Night dream My last Night dream
+              </div>
+            </div>
+            <div class="note10" id="Note">
+              <div class="my-last-night-dream-parent8">
+                <div class="good-morning-sumeed">My last Night dream</div>
+                <div class="tag-parent13">
+                  <div class="dark-mode5">Tag</div>
+                  <div class="march-2019">March 20</div>
+                </div>
+              </div>
+              <div class="my-last-night18">
+                My last Night dream My last Night dream My last Night dream My
+                last Night dream My last Night dream My last Night dream
+              </div>
+            </div>
+            <div class="note10" id="Note">
+              <div class="my-last-night-dream-parent8">
+                <div class="good-morning-sumeed">My last Night dream</div>
+                <div class="tag-parent13">
+                  <div class="dark-mode5">Tag</div>
+                  <div class="march-2019">March 20</div>
+                </div>
+              </div>
+              <div class="my-last-night22">
+                My last Night dream My last Night dream My last Night dream My
+                last Night dream My last Night dream My last Night dream
+              </div>
+            </div>
+            <div class="note10">
+              <div class="my-last-night-dream-parent8">
+                <div class="good-morning-sumeed">My last Night dream</div>
+                <div class="tag-parent13">
+                  <div class="dark-mode5">Tag</div>
+                  <div class="march-2019">March 20</div>
+                </div>
+              </div>
+              <div class="my-last-night18">
+                My last Night dream My last Night dream My last Night dream My
+                last Night dream My last Night dream My last Night dream
+              </div>
+            </div>
+          </div>
+          <div class="note-parent1">
+            <div class="note17" id="Note">
+              <div class="my-last-night-dream-parent8">
+                <div class="good-morning-sumeed">Meeting notes</div>
+                <div class="tag-parent20">
+                  <div class="dark-mode5">Work</div>
+                  <div class="march-2019">March 21</div>
+                </div>
+              </div>
+              <div class="my-last-night-container9">
+                <ul class="milk-eggs-bread-cheese">
+                  <li class="milk1">Discussed new project proposal</li>
+                  <li class="milk1">Assigned tasks to team members</li>
+                  <li>Set next meeting date for 2 weeks</li>
+                </ul>
+              </div>
+            </div>
+            <div class="note18" id="Note">
+              <div class="my-last-night-dream-parent8">
+                <div class="good-morning-sumeed">Phone numbers</div>
+                <div class="tag-parent13">
+                  <div class="dark-mode5">Personal</div>
+                  <div class="march-2019">March 23</div>
+                </div>
+              </div>
+              <div class="my-last-night-container9">
+                <ul class="milk-eggs-bread-cheese">
+                  <li class="milk1">Mom: 555-1234</li>
+                  <li class="milk1">Dad: 555-5678</li>
+                  <li>Sister: 555-9012</li>
+                </ul>
+              </div>
+            </div>
+            <div class="note19" id="Note">
+              <div class="my-last-night-dream-parent8">
+                <div class="good-morning-sumeed">Gift ideas</div>
+                <div class="tag-parent13">
+                  <div class="dark-mode5">Personal</div>
+                  <div class="march-2019">March 25</div>
+                </div>
+              </div>
+              <div class="my-last-night-container9">
+                <ul class="milk-eggs-bread-cheese">
+                  <li class="milk1">Birthday gift for mom</li>
+                  <li class="milk1">Anniversary gift for spouse</li>
+                  <li>Christmas gift for sister</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="to-dos-group">
+          <div class="habits1">To-Dos</div>
+          <div class="due-group">
+            <div class="due1">Due</div>
+            <div class="task11" id="Task">
+              <img class="check-icon1" alt="" src="./public/check1.svg" />
+
+              <div class="this-is-a-task-parent8">
+                <div class="this-is-a10">Do Exercise</div>
+                <div class="march-23-parent9">
+                  <div class="days4">March 23</div>
+                  <div class="some-tag11">Personal</div>
+                </div>
+              </div>
+            </div>
+            <div class="task11">
+              <img class="check-icon1" alt="" src="./public/check1.svg" />
+
+              <div class="this-is-a-task-parent8">
+                <div class="this-is-a10">Respond to Emails</div>
+                <div class="march-23-parent9">
+                  <div class="days4">March 23</div>
+                  <div class="some-tag12">Work</div>
+                </div>
+              </div>
+            </div>
+            <div class="due1">Today</div>
+            <div class="task11">
+              <img class="check-icon1" alt="" src="./public/check1.svg" />
+
+              <div class="this-is-a-task-parent8">
+                <div class="this-is-a10">Submit the Form</div>
+                <div class="march-23-parent9">
+                  <div class="days4">March 23</div>
+                  <div class="some-tag12">Work</div>
+                </div>
+              </div>
+            </div>
+            <div class="task11">
+              <img class="check-icon1" alt="" src="./public/check1.svg" />
+
+              <div class="this-is-a-task-parent8">
+                <div class="this-is-a10">Edit colleagues Repo</div>
+                <div class="march-23-parent9">
+                  <div class="days4">March 23</div>
+                  <div class="some-tag12">Work</div>
+                </div>
+              </div>
+            </div>
+            <div class="task11" id="Task">
+              <img class="check-icon1" alt="" src="./public/check1.svg" />
+
+              <div class="this-is-a-task-parent8">
+                <div class="this-is-a10">Setup video meeting</div>
+                <div class="march-23-parent9">
+                  <div class="days4">March 23</div>
+                  <div class="some-tag11">Personal</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="tomorrow-group">
+            <div class="due1">Tomorrow</div>
+            <div class="task11">
+              <img class="check-icon1" alt="" src="./public/check1.svg" />
+
+              <div class="this-is-a-task-parent8">
+                <div class="this-is-a10">Schedule Meeting</div>
+                <div class="march-23-parent9">
+                  <div class="days4">March 23</div>
+                  <div class="some-tag12">Work</div>
+                </div>
+              </div>
+            </div>
+            <div class="due1">Next Week</div>
+            <div class="task11" id="Task">
+              <img class="check-icon1" alt="" src="./public/check1.svg" />
+
+              <div class="this-is-a-task-parent8">
+                <div class="this-is-a10">Call the Bank</div>
+                <div class="march-23-parent9">
+                  <div class="days4">March 23</div>
+                  <div class="some-tag11">Personal</div>
+                </div>
+              </div>
+            </div>
+            <div class="task11">
+              <img class="check-icon1" alt="" src="./public/check1.svg" />
+
+              <div class="this-is-a-task-parent8">
+                <div class="this-is-a10">Attend team Meeting</div>
+                <div class="march-23-parent9">
+                  <div class="days4">March 23</div>
+                  <div class="some-tag12">Work</div>
+                </div>
+              </div>
+            </div>
+            <div class="task11">
+              <img class="check-icon1" alt="" src="./public/check1.svg" />
+
+              <div class="this-is-a-task-parent8">
+                <div class="this-is-a10">Order office supplies</div>
+                <div class="march-23-parent9">
+                  <div class="days4">March 23</div>
+                  <div class="some-tag12">Work</div>
+                </div>
+              </div>
+            </div>
+            <div class="task11">
+              <img class="check-icon1" alt="" src="./public/check1.svg" />
+
+              <div class="this-is-a-task-parent8">
+                <div class="this-is-a10">Review Article</div>
+                <div class="march-23-parent9">
+                  <div class="days4">March 23</div>
+                  <div class="some-tag12">Work</div>
+                </div>
+              </div>
+            </div>
+            <div class="task11">
+              <img class="check-icon1" alt="" src="./public/check1.svg" />
+
+              <div class="this-is-a-task-parent8">
+                <div class="this-is-a10">This is a Task</div>
+                <div class="march-23-parent9">
+                  <div class="days4">March 23</div>
+                  <div class="some-tag21">Some Tag</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="calendar-group">
+          <div class="calendar1">Calendar</div>
+          <div class="parent10">
+            <div class="div17">07:00</div>
+            <img class="frame-child9" alt="" src="./public/vector-11.svg" />
+          </div>
+          <div class="parent11">
+            <div class="div17">08:00</div>
+            <img class="frame-child9" alt="" src="./public/vector-11.svg" />
+          </div>
+          <div class="parent12">
+            <div class="div17">09:00</div>
+            <img class="frame-child9" alt="" src="./public/vector-11.svg" />
+          </div>
+          <div class="parent13">
+            <div class="div17">10:00</div>
+            <img class="frame-child9" alt="" src="./public/vector-11.svg" />
+          </div>
+          <div class="parent14">
+            <div class="div17">11:00</div>
+            <img class="frame-child9" alt="" src="./public/vector-11.svg" />
+          </div>
+          <div class="parent15">
+            <div class="div17">12:00</div>
+            <img class="frame-child9" alt="" src="./public/vector-11.svg" />
+          </div>
+          <div class="parent16">
+            <div class="div17">13:00</div>
+            <img class="frame-child9" alt="" src="./public/vector-11.svg" />
+          </div>
+          <div class="parent17">
+            <div class="div17">14:00</div>
+            <img class="frame-child9" alt="" src="./public/vector-11.svg" />
+          </div>
+          <div class="parent18">
+            <div class="div17">15:00</div>
+            <img class="frame-child9" alt="" src="./public/vector-11.svg" />
+          </div>
+          <div class="parent19">
+            <div class="div17">16:00</div>
+            <img class="frame-child9" alt="" src="./public/vector-11.svg" />
+          </div>
+          <div class="parent20">
+            <div class="div17">17:00</div>
+            <img class="frame-child9" alt="" src="./public/vector-11.svg" />
+          </div>
+          <div class="parent21">
+            <div class="div17">18:00</div>
+            <img class="frame-child9" alt="" src="./public/vector-11.svg" />
+          </div>
+          <div class="event4">
+            <div class="this-is-scheduled-eventtask-wrapper2">
+              <b class="pm-25-march1">Call the Bank</b>
+            </div>
+            <div class="hours-parent2">
+              <div class="days4">
+                <span>07:00 - 09:00 • 2 hours</span>
+              </div>
+              <div class="days4">March 20</div>
+            </div>
+            <div class="tag29">Personal</div>
+            <div class="event-child2"></div>
+          </div>
+          <div class="event5">
+            <div class="this-is-scheduled-eventtask-wrapper2">
+              <b class="pm-25-march1">Review Article</b>
+            </div>
+            <div class="hours-parent2">
+              <div class="days4">
+                <span>10:00 - 12:00 • 2 hours</span>
+              </div>
+              <div class="days4">March 21</div>
+            </div>
+            <div class="tag30">Work</div>
+            <div class="event-child2"></div>
+          </div>
+          <div class="event6">
+            <div class="this-is-scheduled-eventtask-wrapper2">
+              <b class="pm-25-march1">Edit colleagues Repo</b>
+            </div>
+            <div class="hours-parent2">
+              <div class="days4">
+                <span>13:00 - 15:00 • 2 hours</span>
+              </div>
+              <div class="days4">March 22</div>
+            </div>
+            <div class="tag30">Work</div>
+            <div class="event-child2"></div>
+          </div>
+          <div class="event7">
+            <div class="this-is-scheduled-eventtask-wrapper2">
+              <b class="pm-25-march1">Do Exercise</b>
+            </div>
+            <div class="hours-parent2">
+              <div class="days4">
+                <span>16:00 - 18:00 • 2 hours</span>
+              </div>
+              <div class="days4">March 23</div>
+            </div>
+            <div class="tag29">Personal</div>
+            <div class="event-child2"></div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <script>
+      var frameButton4 = document.getElementById("frameButton4");
+      if (frameButton4) {
+        frameButton4.addEventListener("click", function (e) {
+          window.location.href = "./dashboard-dark.html";
+        });
+      }
+      </script>
+  </body>
+</html>
